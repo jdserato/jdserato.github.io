@@ -2,9 +2,9 @@
     "sources":{
          "title":"Data Sources",
          "questions":[
-            "Name/describe your project’s key data sources, whether you’re collecting data yourself or accessing via third parties.",
-            "Is any personal data involved, or data that is otherwise sensitive?",
-            "Is any personal data involved, or data that is otherwise sensitive?"
+            "Primary data is behavioural i.e., location typical travellers would go. Image and likeness of people will also be collected to ensure that “travellers” will feel the uniqueness and ethnicity of the place.",
+            "Other data sources include cultural, geographic, and client preference data, which are not as sensitive as those outlined in the previous bullet.",
+            "These are the most personal and sensitive data collected. These are classified as genetic and/or biometric data under the GDPR’s Special Category Data that are by default prohibited from processing except for strict exemptions such as when the subject consents to the processing of data for a specified purpose."
          ],
          "labels":{
             "title":"Title",
