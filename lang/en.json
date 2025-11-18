@@ -18,7 +18,7 @@
          "questions":[
             "The model may give more importance to more notable areas/cultures as they bring in more demand. This can potentially cause the model to poorly render the likeness of less famous spots; may it be through trivializing the culture or playing to stereotypes.",
             "The team composition, particularly if the team is culturally homogenous, may lead to a model architecture that reflects their dominant cultural and ethical preferences.",
-            "SuperFly needs to also define data governance and data quality standards while building the dataset",
+            "SuperFly needs to also define data governance and data quality standards while building the dataset"
          ],
          "listlabel":"Description"
       },
@@ -130,7 +130,7 @@
       },
           "corners": {
         "top-left": "odi-logo.svg",
-        "top-right": "Data Ethics Canvas",
+        "top-right": "SuperFly Data Ethics Canvas",
         "bottom-left-text": "Open Data Institute #DataEthicsCanvas",
         "bottom-right-link": "theodi.org/tools",
         "date": "2021-05",
