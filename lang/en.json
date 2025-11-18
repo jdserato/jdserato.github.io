@@ -3,6 +3,7 @@
          "title":"Data Sources",
          "questions":[
             "Name/describe your project’s key data sources, whether you’re collecting data yourself or accessing via third parties.",
+            "Is any personal data involved, or data that is otherwise sensitive?",
             "Is any personal data involved, or data that is otherwise sensitive?"
          ],
          "labels":{
