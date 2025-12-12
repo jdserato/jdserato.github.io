@@ -17,7 +17,7 @@
        "limitations":{
          "title":"Limitations in data sources",
          "questions":[
-            "The primary limitations are: Youtube’s engineering lapses that allowed Chen to bypass protocol and alter production data. Youtube as a platform being context-blind, in the sense that it is optimized to uniformly treat channels the same.",
+            "The primary limitations are: Youtube’s engineering lapses that allowed Chen to bypass protocol and alter production data. Youtube as a platform being context-blind, in the sense that it is optimized to uniformly treat channels the same without measures for supporting high-value, socially relevant movements like the IGBP.",
             "On IGBP’s side, Savage loosened the curation process in favor of a seemingly first-in, first-out system within that 2-week period. This unknowingly implied a queue-like system where the sole arbiter for a video to be uploaded was that it was submitted earlier than others.",
             "Youtube should improve their change management practices and introduce programs to aid the growth of socially-beneficial channels. IGBP should explore other sharing sites to upload videos and use cross-referencing between platforms."
          ],
@@ -35,8 +35,8 @@
          "title":"Ethical and legislative context",
          "questions":[
             "To address the ethics of Chen’s actions, we use the Kantian ethics, utilitarianism, and ACM’s code of ethics. To discuss Youtube’s inaction and context-blindness, we use care ethics and social justice, corporate social responsibility (CSR), Yogyakarta principles, and Floridi’s Information Ethics.",
-            "Legal frameworks that can be applied to Chen’s unauthorized production database changes are US Code 1030(5)(a), as well as GDPR’s Article 32.",
-            "As there was no adjudication for Chen’s actions, these ethical and legal frameworks would serve as references in analyzing future similar actions and in helping the platform improve."
+            "Legal frameworks that can be applied to Chen’s unauthorized production database changes are US Code 1030(5)(a), as well as GDPR’s Article 32. Legal frameworks that can be applied to Youtube’s lapses are corporate fiduciary duties, vicarious liability statues, US Communications Decency Act, and compliance frameworks such as ISO 27001.",
+            "As there was no adjudication for Chen’s actions, these ethical and legal frameworks would serve as references in analyzing future similar actions and in helping the platform improve. These can also help Youtube assess on  whether legal repercussions will be given for future cases."
          ],
          "listlabel":"What requirements does this introduce?"
       },
@@ -60,30 +60,32 @@
          "title":"Communicating your purpose",
          "questions":[
             "The intent behind IGBP, which is to save lives by sharing stories, has been clear since the channel’s creation. The channel name and the actual content of the videos also provide context clues on this. Given the popularity of the project as described in the case study, it seems like the message has been relayed well.",
-            "Given the case description, it seems like IGBP is aware of Youtube’s limitations. However, the platform has not provided more information on why such policies exist. There also seems to be less consultations between Youtube and the channels, notably on how the platform could help them more."
+            "Given the case description, it seems like IGBP is aware of Youtube’s limitations. However, the platform has not provided more information on why such policies exist. There also seems to be less consultations between Youtube and the channels, notably on how the platform could help them more.",
+            "IGBP may add an intro to the videos explicitly stating the project goals as a primer to the audience. Youtube should increase their interactions with channels and discuss the pain points and areas to improve."
          ]
       },
              "positive-effects":{
          "title":"Positive effects on people",
          "questions":[
-            "LGBTQ youth struggling with bullying, harassment, and suicidal ideation are the primary beneficiaries of this project. The videos provide messages of hope, showing that life can improve beyond the difficulties of adolescence. Those questioning their sexual orientation or gender identity can see positive role models and diverse life paths, reducing feelings of isolation and hopelessness.",
-            "Current measurement relies heavily on view counts (50 million+ views) and anecdotal testimonials claiming videos saved lives, but lacks systematic empirical validation. Chen stated they had \"solid evidence that these videos did save lives\" without detailing the methodology. ",
+            "LGBTQ youth struggling with bullying, harassment, and suicidal ideation are the primary beneficiaries of this project. The videos provide messages of hope, showing that life can improve beyond the difficulties of adolescence. Youth in isolated or rural areas with limited access to LGBTQ resources or community can find connection and support through these videos. Those questioning their sexual orientation or gender identity can see positive role models and diverse life paths, reducing feelings of isolation and hopelessness.",
+            "Current measurement relies heavily on view counts (50 million+ views) and anecdotal testimonials claiming videos saved lives, but lacks systematic empirical validation. Chen stated they had \"solid evidence that these videos did save lives\" without detailing the methodology. The viral success and media coverage demonstrate reach but not necessarily depth of impact.",
+            "Partner with Trevor Project and suicide prevention researchers for empirical outcome studies."
          ],
          "listlabel":"How?"
       },
        "negative-effects":{
          "title":"Negative effects on people",
          "questions":[
-            "Video contributors face significant privacy risks - LGBTQ youth who share videos could be outed to unsupportive families or communities, face targeted harassment or doxxing, and may have videos remain online permanently affecting future employment or relationships. Video viewers, particularly vulnerable LGBTQ youth in crisis, may be triggered by content discussing suicide or self-harm. ",
-            "The case study reveals significant gaps in risk communication. There's no evidence of an informed consent process for video contributors about privacy risks, no content warnings about potentially triggering material, and no communication to Chen's colleagues about database risks before implementation. "
+            "Video contributors face significant privacy risks - LGBTQ youth who share videos could be outed to unsupportive families or communities, face targeted harassment or doxxing, and may have videos remain online permanently affecting future employment or relationships. Video viewers, particularly vulnerable LGBTQ youth in crisis, may be triggered by content discussing suicide or self-harm. Those for whom \"it hasn't gotten better\" may feel excluded or hopeless, and youth without access to resources may feel isolated if the message doesn't resonate with their reality.",
+            "The case study reveals significant gaps in risk communication. There's no evidence of an informed consent process for video contributors about privacy risks, no content warnings about potentially triggering material, and no communication to Chen's colleagues about database risks before implementation. There's also no transparency about video selection criteria or moderation processes, and limited communication about who the project serves versus who it might exclude."
          ],
          "listlabel":"How?"
       },
           "mitigations":{
          "title":"Minimising negative impact",
          "questions":[
-            "For Chen's case, harm can be minimised when establishing clear ethical review processes for engineers making judgment calls. Create escalation pathways for urgent decisions that bypass normal procedures. Implement monitoring systems to detect unintended consequences quickly.",
-            "Technical safeguards should include thorough sandbox testing before production changes, incremental database changes rather than dramatic backdating of six years, real-time monitoring for cascading effects, documented rollback procedures, and mandatory peer review for any changes outside normal procedures. Privacy and security measures must include encrypted submission channels, age verification with parental consent for minors, and a commitment to not track vulnerable viewers consuming crisis-related content."
+            "For Chen's case, harm can be minimised when establishing clear ethical review processes for engineers making judgment calls. Create escalation pathways for urgent decisions that bypass normal procedures. Implement monitoring systems to detect unintended consequences quickly. Build in \"circuit breakers\" - ways to quickly reverse changes if problems emerge.",
+            "Technical safeguards should include thorough sandbox testing before production changes, incremental database changes rather than dramatic backdating of six years, real-time monitoring for cascading effects, documented rollback procedures, and mandatory peer review for any changes outside normal procedures. Privacy and security measures must include encrypted submission channels, anonymous contribution options, clear data retention policies, user controls for video visibility and deletion, age verification with parental consent for minors, and a commitment to not track vulnerable viewers consuming crisis-related content."
          ]
       },
              "engaging":{
@@ -97,7 +99,7 @@
            "openness":{
          "title":"Openness and transparency",
          "questions":[
-            "Given that the document exists, it seems like Youtube has allowed for some part of the case to the authors. However, they did not disclose what the specific metadata column name is, nor did they disclose the workaround that Chen used.",
+            "Given that the document exists, it seems like Youtube has allowed for some part of the case to the authors. However, they did not disclose what the specific metadata column name is, nor did they disclose the workaround that Chen used. Youtube’s legal team would have sanitized and communicated this narrative within the company before releasing it to the public.",
             "In sharing such details, the intent is no longer to give feedback on the event but rather as a postmortem to study and reflect on the case and what could be done should a similar event occur.",
             "Youtube made a wise decision to only share the relevant details of the case, as disclosing the methodology may entail additional security vulnerabilities. Given that this canvas also discusses the case in the context of what has been shared, it is safe to publish for public usage."
          ]
@@ -106,7 +108,8 @@
          "title":"Ongoing implementation",
          "questions":[
             "For IGBP, they are still actively promoting their message on a larger scale through creating a website where they have total control over how many videos they can publish, and have expanded to other video streaming platforms like TikTok and Discord. They have also maintained an open communication channel via email for people to reach out should they have concerns.",
-            "For YouTube, the regulations of limited video uploads are still standing. This has been codified in their terms and conditions and their community guidelines. They also have a support page where users can forward their concerns within a reasonable amount of time. However the case of Chen is still an exception."
+            "For YouTube, the regulations of limited video uploads are still standing. This has been codified in their terms and conditions and their community guidelines. They also have a support page where users can forward their concerns within a reasonable amount of time. However the case of Chen is still an exception.",
+            "Adequate training should be provided to YouTube engineers as despite being seen as to be less strict compared to other Google subsidiaries, it should still uphold the protocols set by the company and avoid such drastic changes that may jeopardize public trust."
          ]
          
       },

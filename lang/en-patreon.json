@@ -1,0 +1,139 @@
+{ 
+    "sources":{
+         "title":"Data Sources",
+         "questions":[
+            "The project’s data source are: Publicly-available project data (e.g. project description, posts, and the like), which is inherently public but is under scrutiny in the case study due to the hackers releasing such data without following Patreon’s TOS. Private communications and Personally-identifiable Information (emails), which are considered Special Category Data under GDPR Patreon’s Codebase, which is legally sensitive proprietary data.",
+            "The researchers originally tried to scrape Patreon’s publicly-accessible data  but failed to properly do so due to technical issues. All of the mentioned data was made available in the data dump that was shared by Patreon’s hackers.",
+            "Given the illegal method used to source this data, accessing and using the leaked data dump for any purpose (research included) is legally impermissible and is highly discouraged."
+         ],
+         "labels":{
+            "title":"Title",
+            "description":"Description",
+            "url":"URL",
+            "owner":"Owner"
+         }
+      },
+       "limitations":{
+         "title":"Limitations in data sources",
+         "questions":[
+            "On the researcher’s side, technical difficulties such as Patreon’s website not having a good scraping hook limited their data scraping attempts. The researchers also noted that should they want to access the data dump, they would have limited capability to distinguish between public and private files while sanitizing their research dataset, especially as the dump is a single file that contains all files.",
+            "The hack also calls into question the ethics of using such data - do the researchers use the more complete but illegally sourced data in their research or do they stick with their scraped data?",
+            "The apparent ethical dilemma in this case study manifests in the limitations, as the researchers debate on using (or not using) complete but illegally sourced data. Assessing the ethics and legality of such an action (to be discussed in the next section) is crucial on whether they want to address these limitations or leave them as is."
+         ],
+         "listlabel":"Description"
+      },
+         "sharing":{
+         "title":"Sharing data with others",
+         "questions":[
+            "As the data dump contains both publicly-available and legally sensitive and proprietary data, it is legally impermissible to share it to other entities and publish such data.",
+            "The researchers should not share nor publish the data."
+         ]
+      },
+      "ethical-legislative":{
+         "title":"Ethical and legislative context",
+         "questions":[
+            "To discuss the ethics behind research integrity and privacy and consent, we use Kantian ethics, utilitarianism and Nissenbaum’s theory of Contextual integrity. If the researchers decide to use the data, we use rights-based ethics and Floridi’s Information ethics to discuss if it’s possible to balance academic transparency and harm mitigation (in the context of the hacking victims)",
+            "To discuss the ethics behind research integrity and privacy and consent, we use Articles 5, 6, and 14 of GDPR. To discuss the legal consequences in potentially using hacked data, we use GDPR Article 25 and the US Common Rule (45 CFR Part 46). Lastly, IP and copyright laws are also relevant as the data includes Patreon’s codebase.",
+            "As the researchers ultimately decided to not use the data, these ethical and legal frameworks serve as references in analyzing future similar actions, as well as the appropriate legal consequences to be given for academics that violate them."
+         ],
+         "listlabel":"What requirements does this introduce?"
+      },
+        "rights":{
+         "title":"Rights around data sources",
+         "questions":[
+           "Despite the fact that the data was already available publicly online, the act of gathering it from the public domain is not by itself problematic. However its use is highly debatable. The raw Patreon data was never supposed to be made public and entities other than Patreon should only have the sole rights of its use.",
+          "Hence, the data collected from being shared by Patreon’s hackers is owned by Patreon and shall only be rightfully used by Patreon. All others who have the leaked data shall have no permission at all to use them for their own benefit.",
+          "It is clear from the outset that the data exposed by hackers, no matter how impactful it may be, does not warrant to be used by other entities. As the article says, these are the data we want, but we don’t need. Organizations should adhere to the ethical standards of research and it starts with the collection of data."
+         ]
+      },
+          "reasons":{
+         "title":"Your reasons for using data",
+         "questions":[
+            "The primary purpose of using the data is to understand the trends of crowdsourcing. Given that crowdsourcing is an event where ideas get pitched and willing donors support the said idea, it is imperative for the society to learn from successful crowdsourced projects. Online platforms like Patreon are one of the most prominent sources of data as these make crowdfunding more accessible all the time and all around the world.",
+            "The raw data that exposes not only the financial transactions but also private messages would further enrich the analysis of the research. This would in turn make the society better by knowing how to pitch properly and effectively to gain support from donors and patrons. However the data included is with private and identifiable information that will be subject to ethical issues when included in the study.",
+            "The researchers and the data scientists shall make sure to not use the leaked data at all, as this would effectively question the ethics of the research team. Instead, they must go through the albeit rigorous but acceptable way of data gathering and be subject to the ethics committee."
+         ]
+      },
+            "communicating":{
+         "title":"Communicating your purpose",
+         "questions":[
+            "The intent behind IGBP, which is to save lives by sharing stories, has been clear since the channel’s creation. The channel name and the actual content of the videos also provide context clues on this. Given the popularity of the project as described in the case study, it seems like the message has been relayed well.",
+            "Given the case description, it seems like IGBP is aware of Youtube’s limitations. However, the platform has not provided more information on why such policies exist. There also seems to be less consultations between Youtube and the channels, notably on how the platform could help them more.",
+            "IGBP may add an intro to the videos explicitly stating the project goals as a primer to the audience. Youtube should increase their interactions with channels and discuss the pain points and areas to improve."
+         ]
+      },
+             "positive-effects":{
+         "title":"Positive effects on people",
+         "questions":[
+            "LGBTQ youth struggling with bullying, harassment, and suicidal ideation are the primary beneficiaries of this project. The videos provide messages of hope, showing that life can improve beyond the difficulties of adolescence. Youth in isolated or rural areas with limited access to LGBTQ resources or community can find connection and support through these videos. Those questioning their sexual orientation or gender identity can see positive role models and diverse life paths, reducing feelings of isolation and hopelessness.",
+            "Current measurement relies heavily on view counts (50 million+ views) and anecdotal testimonials claiming videos saved lives, but lacks systematic empirical validation. Chen stated they had \"solid evidence that these videos did save lives\" without detailing the methodology. The viral success and media coverage demonstrate reach but not necessarily depth of impact.",
+            "Partner with Trevor Project and suicide prevention researchers for empirical outcome studies."
+         ],
+         "listlabel":"How?"
+      },
+       "negative-effects":{
+         "title":"Negative effects on people",
+         "questions":[
+            "Video contributors face significant privacy risks - LGBTQ youth who share videos could be outed to unsupportive families or communities, face targeted harassment or doxxing, and may have videos remain online permanently affecting future employment or relationships. Video viewers, particularly vulnerable LGBTQ youth in crisis, may be triggered by content discussing suicide or self-harm. Those for whom \"it hasn't gotten better\" may feel excluded or hopeless, and youth without access to resources may feel isolated if the message doesn't resonate with their reality.",
+            "The case study reveals significant gaps in risk communication. There's no evidence of an informed consent process for video contributors about privacy risks, no content warnings about potentially triggering material, and no communication to Chen's colleagues about database risks before implementation. There's also no transparency about video selection criteria or moderation processes, and limited communication about who the project serves versus who it might exclude."
+         ],
+         "listlabel":"How?"
+      },
+          "mitigations":{
+         "title":"Minimising negative impact",
+         "questions":[
+            "For Chen's case, harm can be minimised when establishing clear ethical review processes for engineers making judgment calls. Create escalation pathways for urgent decisions that bypass normal procedures. Implement monitoring systems to detect unintended consequences quickly. Build in \"circuit breakers\" - ways to quickly reverse changes if problems emerge.",
+            "Technical safeguards should include thorough sandbox testing before production changes, incremental database changes rather than dramatic backdating of six years, real-time monitoring for cascading effects, documented rollback procedures, and mandatory peer review for any changes outside normal procedures. Privacy and security measures must include encrypted submission channels, anonymous contribution options, clear data retention policies, user controls for video visibility and deletion, age verification with parental consent for minors, and a commitment to not track vulnerable viewers consuming crisis-related content."
+         ]
+      },
+             "engaging":{
+         "title":"Engaging with people",
+         "questions":[
+            "In the context of IGBP, interested groups and individuals sent their videos to Savage and Miller for them to post to the IGBP channel. However the issue is that the channel is inherently subject to Youtube’s TOS, which restricts it to a limited number of videos since the year the channel was created.",
+            "No formal channels for appealing existed during that time, and so Savage and Miller found it hard to reach out to Youtube. It was only through the intervention of Chen that the issue was resolved in a questionable manner.",
+            "YouTube should also establish a communication channel to its creators, given that Chen’s intervention was just through their personal interest rather than from their professional capacity"
+         ]
+      },
+           "openness":{
+         "title":"Openness and transparency",
+         "questions":[
+            "Given that the document exists, it seems like Youtube has allowed for some part of the case to the authors. However, they did not disclose what the specific metadata column name is, nor did they disclose the workaround that Chen used. Youtube’s legal team would have sanitized and communicated this narrative within the company before releasing it to the public.",
+            "In sharing such details, the intent is no longer to give feedback on the event but rather as a postmortem to study and reflect on the case and what could be done should a similar event occur.",
+            "Youtube made a wise decision to only share the relevant details of the case, as disclosing the methodology may entail additional security vulnerabilities. Given that this canvas also discusses the case in the context of what has been shared, it is safe to publish for public usage."
+         ]
+      },
+           "implementation":{
+         "title":"Ongoing implementation",
+         "questions":[
+            "For IGBP, they are still actively promoting their message on a larger scale through creating a website where they have total control over how many videos they can publish, and have expanded to other video streaming platforms like TikTok and Discord. They have also maintained an open communication channel via email for people to reach out should they have concerns.",
+            "For YouTube, the regulations of limited video uploads are still standing. This has been codified in their terms and conditions and their community guidelines. They also have a support page where users can forward their concerns within a reasonable amount of time. However the case of Chen is still an exception.",
+            "Adequate training should be provided to YouTube engineers as despite being seen as to be less strict compared to other Google subsidiaries, it should still uphold the protocols set by the company and avoid such drastic changes that may jeopardize public trust."
+         ]
+         
+      },
+         "review":{
+         "title":"Reviews and iterations",
+         "questions":[
+            "For IGBP, data ethics issues can be measured through the feedback that the system gets from the videos streamed through our video streaming platforms. As Savage and Miller continue to curate their video collections, they shall also bear the responsibility in making sure that these remain to be compliant with the terms of service of their platforms.",
+            "For YouTube, data ethics issues in the case of Chen’s actions shall be addressed internally that despite it not having any adverse effects to the channel or to the platform at large, it begs the question on the community guidelines and terms of service.",
+            "The responses to this Data Ethics Canvas shall be reviewed and updated by the independent ethics committee from IGBP and YouTube on a regular monthly basis to ensure that integrity is maintained."
+         ]
+      },
+         "actions":{
+         "title":"Your actions",
+         "questions":[
+            "Chen shall face an investigation attended by ethics committees and Youtube’s policymakers to discuss legal repercussions and policy changes in policy stemming from Chen’s actions.",
+            "In the case of YouTube, the company shall hold an internal investigation to revisit engineering standards and mitigate risks such as Chen’s actions, as well as discuss CSR-based actions to help socially-beneficial channels such as IGBP.",
+            "It shall be made sure by the ethics committee to release the results of the investigation, and also of this Data Ethics Canvas, to the public as soon as the report is ready to publish."
+         ]
+      },
+          "corners": {
+        "top-left": "odi-logo.svg",
+        "top-right": "IGBP Data Ethics Canvas",
+        "bottom-left-text": "Open Data Institute #DataEthicsCanvas",
+        "bottom-right-link": "theodi.org/tools",
+        "date": "2021-05",
+        "licence": ["cc-by-sa.svg", "This text is licensed under a Creative Commons Attribution-ShareAlike 4.0 UK. International License"]
+      }
+   }
+   
