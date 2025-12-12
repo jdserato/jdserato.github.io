@@ -16,7 +16,7 @@
        "limitations":{
          "title":"Limitations in data sources",
          "questions":[
-            "On the researcher’s side, technical difficulties such as Patreon’s website not having a good scraping hook limited their data scraping attempts. The researchers also noted that should they want to access the data dump, they would have limited capability to distinguish between public and private files while sanitizing their research dataset, especially as the dump is a single file that contains all files."
+            "On the researcher’s side, technical difficulties such as Patreon’s website not having a good scraping hook limited their data scraping attempts. The researchers also noted that should they want to access the data dump, they would have limited capability to distinguish between public and private files while sanitizing their research dataset, especially as the dump is a single file that contains all files.",
             "The apparent ethical dilemma in this case study manifests in the limitations, as the researchers debate on using (or not using) complete but illegally sourced data. Assessing the ethics and legality of such an action (to be discussed in the next section) is crucial on whether they want to address these limitations or leave them as is."
          ],
          "listlabel":"Description"
