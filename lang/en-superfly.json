@@ -1,0 +1,140 @@
+{ 
+    "sources":{
+         "title":"Data Sources",
+         "questions":[
+            "Primary data is behavioural i.e., location typical travellers would go. Image and likeness of people will also be collected to ensure that “travellers” will feel the uniqueness and ethnicity of the place.",
+            "Other data sources include cultural, geographic, and client preference data, which are not as sensitive as those outlined in the previous bullet.",
+            "These are the most personal and sensitive data collected. These are classified as genetic and/or biometric data under the GDPR’s Special Category Data that are by default prohibited from processing except for strict exemptions such as when the subject consents to the processing of data for a specified purpose."
+         ],
+         "labels":{
+            "title":"Title",
+            "description":"Description",
+            "url":"URL",
+            "owner":"Owner"
+         }
+      },
+       "limitations":{
+         "title":"Limitations in data sources",
+         "questions":[
+            "The model may give more importance to more notable areas/cultures as they bring in more demand. This can potentially cause the model to poorly render the likeness of less famous spots; may it be through trivializing the culture or playing to stereotypes.",
+            "The team composition, particularly if the team is culturally homogenous, may lead to a model architecture that reflects their dominant cultural and ethical preferences.",
+            "SuperFly needs to also define data governance and data quality standards while building the dataset"
+         ],
+         "listlabel":"Description"
+      },
+         "sharing":{
+         "title":"Sharing data with others",
+         "questions":[
+            "As SuperFly will create the model from scratch, then the model and data will most probably be proprietary.",
+            "SuperFly may publish some work and share parts of the data, but only in the case when it doesn't expose their industry secrets.",
+            "The marketing team shall publish relevant data to the website and track comments and other forms of reactions that may prompt a quick response."
+         ]
+      },
+      "ethical-legislative":{
+         "title":"Ethical and legislative context",
+         "questions":[
+            "For ethics, we mainly use Markkula Center’s framework for Ethical Decision Making, as well as UN Tourism’s Global Code of Ethics for Tourism (GCET). For legalities we primarily look at Data Privacy Laws (notably GDPR due to its global influence), as well as IP, cultural heritage, and labor-and-sustainability policies.",
+            "On privacy, autonomy, and special category data, ethical tension and frameworks invoke GCET Article 8,9, and 5. On fairness, article 1; on intellectual property, Article 4. On socioeconomic impact on tourism, Article 5."
+         ],
+         "listlabel":"What requirements does this introduce?"
+      },
+        "rights":{
+         "title":"Rights around data sources",
+         "questions":[
+           "These are collected via trackers and sensors. For image and likeness, SuperFly collects them.",
+          "Organizations in the local or regional establishments are the sources for cultural and geographic data.",
+          "Since these come from travel agencies, it may be ethically challenging to use them for our purpose."
+         ]
+      },
+          "reasons":{
+         "title":"Your reasons for using data",
+         "questions":[
+            "This multi-faceted data will be used to train the SuperFly model that will generate bespoke and immersive VR travel experiences to the client. SuperFly’s business model heavily relies on booking sales for customers",
+            "SuperFly helps reduce carbon emissions due to travel by replicating the same experience through VR. This also allows for a more budget-friendly way to experience travel, which is a clear alternative to people with less disposable income.",
+            "The introduction of SuperFly shall aim to enable a reduction of carbon emissions that will ultimately lessen the effects of climate change. It does replace most of the tourism sector by offering the same experiences, but not totally."
+         ]
+      },
+            "communicating":{
+         "title":"Communicating your purpose",
+         "questions":[
+            "The traditions and cultures of society are being shared across the world, which aims to appeal to the locals to share these to the whole world.",
+            "These are placed as vision and mission statements of SuperFly and appear publicly on the website.",
+            "SuperFly shall coordinate with the local tourism government to ensure that the far-flung and indigenous groups shall understand perfectly our goals."
+         ]
+      },
+             "positive-effects":{
+         "title":"Positive effects on people",
+         "questions":[
+            "The most tangible effect of travelling with SuperFly is the reduction of carbon emissions due to travel. ",
+            "This may be quantified by the simple formula: Average emissions/person (in the context of a certain location) * number of VR trips booked.",
+            "SuperFly shall be employing a data scientist and a statistician to verify these claims using the formula above."
+         ],
+         "listlabel":"How?"
+      },
+       "negative-effects":{
+         "title":"Negative effects on people",
+         "questions":[
+            "Negative impact on hospitality industry and local livelihoods. Revenue doesn't contribute to preservation of actual cultural sites. Inherent bias toward easily quantifiable features (biometric data), qualitative aspects (culture) reduced to proxies or oversimplifications",
+            "Processing images allows for \"unique identification of natural persons\". Creates risk of unauthorized use or misuse of personal likenesses.",
+            "SuperFly shall ensure that we continue to coordinate with the affected groups and organizations by either partnering with them for the services we need, or to share the revenue as indicated in the next section."
+         ],
+         "listlabel":"How?"
+      },
+          "mitigations":{
+         "title":"Minimising negative impact",
+         "questions":[
+            "SuperFly aims to establish a cultural advisory board with veto power consisting of tourism department heads  to ensure that the cultural integration remains appropriate.",
+            "Implement revenue sharing models to incentivize the use of their model for the system. An option to remove the “customizable locals” feature.",
+            "With the establishment of the board members, the voices of the locals from these tourist destinations shall be considered for a wholesome experience."
+         ]
+      },
+             "engaging":{
+         "title":"Engaging with people",
+         "questions":[
+            "SuperFly shall provide a survey form for the users and the locals for the ethics committee to review.",
+            "A reliable communication line shall be established to the models used for their likeness, so SuperFly can directly assess the effects of the use of their likeness and can promptly address them.",
+            "A dedicated team comprised of ethics committee members shall be created to keep track of survey results and personal correspondence."
+         ]
+      },
+           "openness":{
+         "title":"Openness and transparency",
+         "questions":[
+            "SuperFly shall be able to share parts of the dataset and methodology to promote open-access but while protecting industry secrets. This will also work as a measure to encourage the public to criticize the methodology in the hopes of making it better, which will in turn encourage locals to sign up for SuperFly.",
+            "With the hospitality and tourism industry heavily affected by this, we shall maintain constant and effective communication to ensure that the shared goals of global awareness are being met."
+         ]
+      },
+           "implementation":{
+         "title":"Ongoing implementation",
+         "questions":[
+            "Since one data source is on the likeness of people, SuperFly shall be in constant communication with them to address their concerns as to whether their image has been found to be used in other aspects that they wish to cease.",
+            "If they also wish to remove themselves from the system, SuperFly shall also ensure that the process is seamless and quick.",
+            "The liaison officer shall keep track of the communication and quick response shall take effect, as they should be the main priority over income generation."
+         ]
+         
+      },
+         "review":{
+         "title":"Reviews and iterations",
+         "questions":[
+            "The data ethics issues of SuperFly shall be measured by the number of complaints regarding the use of data, its severity, and how quick and effective it was addressed.",
+            "The ODI canvas shall be periodically updated every four months to ensure that data ethics is still upheld.",
+            "SuperFly shall establish a periodic checkup guided by the Data Ethics Officer."
+         ]
+      },
+         "actions":{
+         "title":"Your actions",
+         "questions":[
+            "SuperFly shall coordinate with the project proponents, including the likeness models and the point persons for cultural, behavioral, and geographic sources to ensure that the communication between them shall be continuous throughout the project.",
+            "SuperFly shall commit to publish these steps and display this canvas to the public.",
+            "The Chief Executive Officer of SuperFly shall manage the establishment of a guiding principle to ensure that all below the hierarchy are to follow these sets of morals."
+         ]
+      },
+          "corners": {
+        "top-left": "odi-logo.svg",
+        "top-right": "SuperFly Data Ethics Canvas",
+        "bottom-left-text": "Open Data Institute #DataEthicsCanvas",
+        "bottom-right-link": "theodi.org/tools",
+        "date": "2021-05",
+        "licence": ["cc-by-sa.svg", "This text is licensed under a Creative Commons Attribution-ShareAlike 4.0 UK. International License"]
+      }
+   }
+   

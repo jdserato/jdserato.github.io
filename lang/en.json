@@ -2,9 +2,10 @@
     "sources":{
          "title":"Data Sources",
          "questions":[
-            "Primary data is behavioural i.e., location typical travellers would go. Image and likeness of people will also be collected to ensure that “travellers” will feel the uniqueness and ethnicity of the place.",
-            "Other data sources include cultural, geographic, and client preference data, which are not as sensitive as those outlined in the previous bullet.",
-            "These are the most personal and sensitive data collected. These are classified as genetic and/or biometric data under the GDPR’s Special Category Data that are by default prohibited from processing except for strict exemptions such as when the subject consents to the processing of data for a specified purpose."
+            "Primary data is User-Generated Video Content, which are sourced from the public, notable LGBTQ members and allies.As the videos contain the image and likeness, as well as narratives detailing their sexual identities, the data technically falls under GDPR’s Special Category Data that requires explicit consent to process (which the contributors have given by sharing their videos to Savage and Miller).",
+            "Another data source in the case study is Youtube’s metadata (e.g. the channels’ creation date), which is considered as sensitive engineering data and falls under proprietary laws.",
+            "For the videos, proper handling and processing on its intended purpose (i.e. sharing their stories) is crucial to ensure that IGBP complies with the Special Category Data statutes.",
+            "For Youtube’s metadata, strict engineering standards should be set to protect its quality and consistency and to avoid system errors based on corrupted data."
          ],
          "labels":{
             "title":"Title",
@@ -16,121 +17,121 @@
        "limitations":{
          "title":"Limitations in data sources",
          "questions":[
-            "The model may give more importance to more notable areas/cultures as they bring in more demand. This can potentially cause the model to poorly render the likeness of less famous spots; may it be through trivializing the culture or playing to stereotypes.",
-            "The team composition, particularly if the team is culturally homogenous, may lead to a model architecture that reflects their dominant cultural and ethical preferences.",
-            "SuperFly needs to also define data governance and data quality standards while building the dataset"
+            "The primary limitations are: Youtube’s engineering lapses that allowed Chen to bypass protocol and alter production data. Youtube as a platform being context-blind, in the sense that it is optimized to uniformly treat channels the same without measures for supporting high-value, socially relevant movements like the IGBP.",
+            "On IGBP’s side, Savage loosened the curation process in favor of a seemingly first-in, first-out system within that 2-week period. This unknowingly implied a queue-like system where the sole arbiter for a video to be uploaded was that it was submitted earlier than others.",
+            "Youtube should improve their change management practices and introduce programs to aid the growth of socially-beneficial channels. IGBP should explore other sharing sites to upload videos and use cross-referencing between platforms."
          ],
          "listlabel":"Description"
       },
          "sharing":{
          "title":"Sharing data with others",
          "questions":[
-            "As SuperFly will create the model from scratch, then the model and data will most probably be proprietary.",
-            "SuperFly may publish some work and share parts of the data, but only in the case when it doesn't expose their industry secrets.",
-            "The marketing team shall publish relevant data to the website and track comments and other forms of reactions that may prompt a quick response."
+            "In the context of IGBP, the videos sent fall under Special Category Data. Thus it is not advisable to share them with others without the video sender’s explicit consent, despite the videos being publicly accessible in Youtube.",
+            "Given its proprietary nature, Youtube will not share its data to other organizations.",
+            "As the case study is more on the ethics of Chen’s actions rather than privacy issues, the mentioned parties should uphold the status quo while also being wary of the vulnerabilities that have been exposed through Chen’s actions."
          ]
       },
       "ethical-legislative":{
          "title":"Ethical and legislative context",
          "questions":[
-            "For ethics, we mainly use Markkula Center’s framework for Ethical Decision Making, as well as UN Tourism’s Global Code of Ethics for Tourism (GCET). For legalities we primarily look at Data Privacy Laws (notably GDPR due to its global influence), as well as IP, cultural heritage, and labor-and-sustainability policies.",
-            "On privacy, autonomy, and special category data, ethical tension and frameworks invoke GCET Article 8,9, and 5. On fairness, article 1; on intellectual property, Article 4. On socioeconomic impact on tourism, Article 5."
+            "To address the ethics of Chen’s actions, we use the Kantian ethics, utilitarianism, and ACM’s code of ethics. To discuss Youtube’s inaction and context-blindness, we use care ethics and social justice, corporate social responsibility (CSR), Yogyakarta principles, and Floridi’s Information Ethics.",
+            "Legal frameworks that can be applied to Chen’s unauthorized production database changes are US Code 1030(5)(a), as well as GDPR’s Article 32. Legal frameworks that can be applied to Youtube’s lapses are corporate fiduciary duties, vicarious liability statues, US Communications Decency Act, and compliance frameworks such as ISO 27001.",
+            "As there was no adjudication for Chen’s actions, these ethical and legal frameworks would serve as references in analyzing future similar actions and in helping the platform improve. These can also help Youtube assess on  whether legal repercussions will be given for future cases."
          ],
          "listlabel":"What requirements does this introduce?"
       },
         "rights":{
          "title":"Rights around data sources",
          "questions":[
-           "These are collected via trackers and sensors. For image and likeness, SuperFly collects them.",
-          "Organizations in the local or regional establishments are the sources for cultural and geographic data.",
-          "Since these come from travel agencies, it may be ethically challenging to use them for our purpose."
+           "The videos posted by the IGBP are sourced from support organizations and primarily individuals who sent their videos via email.",
+          "It is already in the discretion of Savage and Miller to curate the videos they receive so it will be amplified from a centralized platform of support to LGBT+ individuals. However the submitted videos remain to be under the property of IGBP, and so the use of the videos will legally be of the discretion of IGBP alone.",
+          "It must be covered under the terms of use the rightful use of the videos submitted to IGBP. It should also cover the ways in which users can request the removal of their videos from their platforms to accommodate the sense of control and trust of their supporters."
          ]
       },
           "reasons":{
          "title":"Your reasons for using data",
          "questions":[
-            "This multi-faceted data will be used to train the SuperFly model that will generate bespoke and immersive VR travel experiences to the client. SuperFly’s business model heavily relies on booking sales for customers",
-            "SuperFly helps reduce carbon emissions due to travel by replicating the same experience through VR. This also allows for a more budget-friendly way to experience travel, which is a clear alternative to people with less disposable income.",
-            "The introduction of SuperFly shall aim to enable a reduction of carbon emissions that will ultimately lessen the effects of climate change. It does replace most of the tourism sector by offering the same experiences, but not totally."
+            "This multi-faceted data will be used to train the SuperFly model that will generate bespoke and immersive VR travel experiences to the client. SuperFly’s business model heavily relies on booking sales for customers.",
+            "IGBP’s videos aim to spread LGBTQ survival stories and messages of hope to the at-risk LGBTQ youth. Youtube’s metadata is primarily used for record-keeping and analytics purposes.",
+            "IGBP’s videos are a societal net positive as these address the rising suicide cases among the LGBTQ youth. Youtube’s metadata solely benefits the platform, and thus results in the limitations discussed."
          ]
       },
             "communicating":{
          "title":"Communicating your purpose",
          "questions":[
-            "The traditions and cultures of society are being shared across the world, which aims to appeal to the locals to share these to the whole world.",
-            "These are placed as vision and mission statements of SuperFly and appear publicly on the website.",
-            "SuperFly shall coordinate with the local tourism government to ensure that the far-flung and indigenous groups shall understand perfectly our goals."
+            "The intent behind IGBP, which is to save lives by sharing stories, has been clear since the channel’s creation. The channel name and the actual content of the videos also provide context clues on this. Given the popularity of the project as described in the case study, it seems like the message has been relayed well.",
+            "Given the case description, it seems like IGBP is aware of Youtube’s limitations. However, the platform has not provided more information on why such policies exist. There also seems to be less consultations between Youtube and the channels, notably on how the platform could help them more.",
+            "IGBP may add an intro to the videos explicitly stating the project goals as a primer to the audience. Youtube should increase their interactions with channels and discuss the pain points and areas to improve."
          ]
       },
              "positive-effects":{
          "title":"Positive effects on people",
          "questions":[
-            "The most tangible effect of travelling with SuperFly is the reduction of carbon emissions due to travel. ",
-            "This may be quantified by the simple formula: Average emissions/person (in the context of a certain location) * number of VR trips booked.",
-            "SuperFly shall be employing a data scientist and a statistician to verify these claims using the formula above."
+            "LGBTQ youth struggling with bullying, harassment, and suicidal ideation are the primary beneficiaries of this project. The videos provide messages of hope, showing that life can improve beyond the difficulties of adolescence. Youth in isolated or rural areas with limited access to LGBTQ resources or community can find connection and support through these videos. Those questioning their sexual orientation or gender identity can see positive role models and diverse life paths, reducing feelings of isolation and hopelessness.",
+            "Current measurement relies heavily on view counts (50 million+ views) and anecdotal testimonials claiming videos saved lives, but lacks systematic empirical validation. Chen stated they had \"solid evidence that these videos did save lives\" without detailing the methodology. The viral success and media coverage demonstrate reach but not necessarily depth of impact.",
+            "Partner with Trevor Project and suicide prevention researchers for empirical outcome studies."
          ],
          "listlabel":"How?"
       },
        "negative-effects":{
          "title":"Negative effects on people",
          "questions":[
-            "Negative impact on hospitality industry and local livelihoods. Revenue doesn't contribute to preservation of actual cultural sites. Inherent bias toward easily quantifiable features (biometric data), qualitative aspects (culture) reduced to proxies or oversimplifications",
-            "Processing images allows for \"unique identification of natural persons\". Creates risk of unauthorized use or misuse of personal likenesses.",
-            "SuperFly shall ensure that we continue to coordinate with the affected groups and organizations by either partnering with them for the services we need, or to share the revenue as indicated in the next section."
+            "Video contributors face significant privacy risks - LGBTQ youth who share videos could be outed to unsupportive families or communities, face targeted harassment or doxxing, and may have videos remain online permanently affecting future employment or relationships. Video viewers, particularly vulnerable LGBTQ youth in crisis, may be triggered by content discussing suicide or self-harm. Those for whom \"it hasn't gotten better\" may feel excluded or hopeless, and youth without access to resources may feel isolated if the message doesn't resonate with their reality.",
+            "The case study reveals significant gaps in risk communication. There's no evidence of an informed consent process for video contributors about privacy risks, no content warnings about potentially triggering material, and no communication to Chen's colleagues about database risks before implementation. There's also no transparency about video selection criteria or moderation processes, and limited communication about who the project serves versus who it might exclude."
          ],
          "listlabel":"How?"
       },
           "mitigations":{
          "title":"Minimising negative impact",
          "questions":[
-            "SuperFly aims to establish a cultural advisory board with veto power consisting of tourism department heads  to ensure that the cultural integration remains appropriate.",
-            "Implement revenue sharing models to incentivize the use of their model for the system. An option to remove the “customizable locals” feature.",
-            "With the establishment of the board members, the voices of the locals from these tourist destinations shall be considered for a wholesome experience."
+            "For Chen's case, harm can be minimised when establishing clear ethical review processes for engineers making judgment calls. Create escalation pathways for urgent decisions that bypass normal procedures. Implement monitoring systems to detect unintended consequences quickly. Build in \"circuit breakers\" - ways to quickly reverse changes if problems emerge.",
+            "Technical safeguards should include thorough sandbox testing before production changes, incremental database changes rather than dramatic backdating of six years, real-time monitoring for cascading effects, documented rollback procedures, and mandatory peer review for any changes outside normal procedures. Privacy and security measures must include encrypted submission channels, anonymous contribution options, clear data retention policies, user controls for video visibility and deletion, age verification with parental consent for minors, and a commitment to not track vulnerable viewers consuming crisis-related content."
          ]
       },
              "engaging":{
          "title":"Engaging with people",
          "questions":[
-            "SuperFly shall provide a survey form for the users and the locals for the ethics committee to review.",
-            "A reliable communication line shall be established to the models used for their likeness, so SuperFly can directly assess the effects of the use of their likeness and can promptly address them.",
-            "A dedicated team comprised of ethics committee members shall be created to keep track of survey results and personal correspondence."
+            "In the context of IGBP, interested groups and individuals sent their videos to Savage and Miller for them to post to the IGBP channel. However the issue is that the channel is inherently subject to Youtube’s TOS, which restricts it to a limited number of videos since the year the channel was created.",
+            "No formal channels for appealing existed during that time, and so Savage and Miller found it hard to reach out to Youtube. It was only through the intervention of Chen that the issue was resolved in a questionable manner.",
+            "YouTube should also establish a communication channel to its creators, given that Chen’s intervention was just through their personal interest rather than from their professional capacity"
          ]
       },
            "openness":{
          "title":"Openness and transparency",
          "questions":[
-            "SuperFly shall be able to share parts of the dataset and methodology to promote open-access but while protecting industry secrets. This will also work as a measure to encourage the public to criticize the methodology in the hopes of making it better, which will in turn encourage locals to sign up for SuperFly.",
-            "With the hospitality and tourism industry heavily affected by this, we shall maintain constant and effective communication to ensure that the shared goals of global awareness are being met."
+            "Given that the document exists, it seems like Youtube has allowed for some part of the case to the authors. However, they did not disclose what the specific metadata column name is, nor did they disclose the workaround that Chen used. Youtube’s legal team would have sanitized and communicated this narrative within the company before releasing it to the public.",
+            "In sharing such details, the intent is no longer to give feedback on the event but rather as a postmortem to study and reflect on the case and what could be done should a similar event occur.",
+            "Youtube made a wise decision to only share the relevant details of the case, as disclosing the methodology may entail additional security vulnerabilities. Given that this canvas also discusses the case in the context of what has been shared, it is safe to publish for public usage."
          ]
       },
            "implementation":{
          "title":"Ongoing implementation",
          "questions":[
-            "Since one data source is on the likeness of people, SuperFly shall be in constant communication with them to address their concerns as to whether their image has been found to be used in other aspects that they wish to cease.",
-            "If they also wish to remove themselves from the system, SuperFly shall also ensure that the process is seamless and quick.",
-            "The liaison officer shall keep track of the communication and quick response shall take effect, as they should be the main priority over income generation."
+            "For IGBP, they are still actively promoting their message on a larger scale through creating a website where they have total control over how many videos they can publish, and have expanded to other video streaming platforms like TikTok and Discord. They have also maintained an open communication channel via email for people to reach out should they have concerns.",
+            "For YouTube, the regulations of limited video uploads are still standing. This has been codified in their terms and conditions and their community guidelines. They also have a support page where users can forward their concerns within a reasonable amount of time. However the case of Chen is still an exception.",
+            "Adequate training should be provided to YouTube engineers as despite being seen as to be less strict compared to other Google subsidiaries, it should still uphold the protocols set by the company and avoid such drastic changes that may jeopardize public trust."
          ]
          
       },
          "review":{
          "title":"Reviews and iterations",
          "questions":[
-            "The data ethics issues of SuperFly shall be measured by the number of complaints regarding the use of data, its severity, and how quick and effective it was addressed.",
-            "The ODI canvas shall be periodically updated every four months to ensure that data ethics is still upheld.",
-            "SuperFly shall establish a periodic checkup guided by the Data Ethics Officer."
+            "For IGBP, data ethics issues can be measured through the feedback that the system gets from the videos streamed through our video streaming platforms. As Savage and Miller continue to curate their video collections, they shall also bear the responsibility in making sure that these remain to be compliant with the terms of service of their platforms.",
+            "For YouTube, data ethics issues in the case of Chen’s actions shall be addressed internally that despite it not having any adverse effects to the channel or to the platform at large, it begs the question on the community guidelines and terms of service.",
+            "The responses to this Data Ethics Canvas shall be reviewed and updated by the independent ethics committee from IGBP and YouTube on a regular monthly basis to ensure that integrity is maintained."
          ]
       },
          "actions":{
          "title":"Your actions",
          "questions":[
-            "SuperFly shall coordinate with the project proponents, including the likeness models and the point persons for cultural, behavioral, and geographic sources to ensure that the communication between them shall be continuous throughout the project.",
-            "SuperFly shall commit to publish these steps and display this canvas to the public.",
-            "The Chief Executive Officer of SuperFly shall manage the establishment of a guiding principle to ensure that all below the hierarchy are to follow these sets of morals."
+            "Chen shall face an investigation attended by ethics committees and Youtube’s policymakers to discuss legal repercussions and policy changes in policy stemming from Chen’s actions.",
+            "In the case of YouTube, the company shall hold an internal investigation to revisit engineering standards and mitigate risks such as Chen’s actions, as well as discuss CSR-based actions to help socially-beneficial channels such as IGBP.",
+            "It shall be made sure by the ethics committee to release the results of the investigation, and also of this Data Ethics Canvas, to the public as soon as the report is ready to publish."
          ]
       },
           "corners": {
         "top-left": "odi-logo.svg",
-        "top-right": "SuperFly Data Ethics Canvas",
+        "top-right": "IGBP Data Ethics Canvas",
         "bottom-left-text": "Open Data Institute #DataEthicsCanvas",
         "bottom-right-link": "theodi.org/tools",
         "date": "2021-05",
